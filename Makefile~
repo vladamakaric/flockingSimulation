@@ -1,0 +1,10 @@
+SRC = $(wildcard source/*.cpp)
+LIB = -lGL -lGLU -lSDL -lSDLmain -lSDL_ttf
+
+all: 
+	g++ $(SRC) -o flockSim $(LIB) 
+
+clean:
+	@echo Cleaning up...
+	@rm flockSim
+	@echo Done.
