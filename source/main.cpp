@@ -12,7 +12,7 @@ bool init_GL()
 	SDL_Surface* drawContext;
 	error = SDL_Init(SDL_INIT_EVERYTHING);
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
-	SDL_WM_SetCaption("zvagu",NULL);
+	SDL_WM_SetCaption("Flocking simulation",NULL);
 	Uint32 flags;
 	flags = SDL_OPENGL | SDL_HWSURFACE;
 	drawContext = SDL_SetVideoMode(SCREEN_WIDTH, SCREEN_HEIGHT,32 ,flags);
