@@ -1,12 +1,12 @@
 # Flocking simulation
-This was a research project I did at Petnica science center (http://www.petnica.rs/), during the summer of 2010 after finishing my second year of high school.
+This is a flocking simulation created to aid a research project I did at Petnica science center (http://www.petnica.rs/), during the summer of 2010 after finishing my second year of high school.
 
-The result of the research is a paper that was published in the 2010 Petnica science center students' projects journal, ISBN: 987-86-7861-047-9.
+The result of the research is a paper on the comparison of different flocking algorithms that was published in the 2010 Petnica science center students' projects journal, ISBN: 987-86-7861-047-9.
 
-The paper (most of it is in Serbian) is available in [PDF](flocking2010.pdf).
+The paper (most of it is in serbian) is available in [PDF](flocking2010.pdf).
 
-A sandbox for flocking algorithms comparison. 
-Here flocking means movement of a group of entities to a common goal, 
+The objective of the research was to compare different flocking algorithms and implement a suitable simulation.
+Where flocking means movement of a group of entities to a common goal, 
 without overlapping with each other and avoiding obstacles in the terrain.
 
 Three flocking algorithms (behaviors) are implemented:
