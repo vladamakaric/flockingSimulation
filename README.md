@@ -23,6 +23,27 @@ After that type 0 to create a new simulation. Press ENTER.
 After that you will get a new window with a blank screen, where you must define obstacles,
 goal and entity positions, the instructions for doing so are given in the console window.
 
-# flockingSimulation
-Sandbox for flocking algorithms comparison. 
+##Example
+These couple of examples are screenshots taken from the sanbox application. 
 
+The light blue lines represent paths
+computed by each entity using the A* algorithm. Some algorithms require these paths
+to be recalculated every several frames, because the target
+is moving (leader following and closest entity following), only the autonomous movement algorithm requires these
+paths to be calculated only once, because the target is the goal position and it is known from the start.
+
+The green colored enitites are the leaders, the ones that were initialy closest to the goal.
+
+The dark blue colored circle is the goal position.
+
+The pink colored blue circles are the entities.
+
+The green colored polygons are the obstacles. The sandbox only supports the creation of convex obstacles, but they
+can be overlapped yielding more complex (concave) shapes.
+
+###Leader following
+![Alt text](/../screenshots/img/leader.png?raw=true "Optional Title")
+###Closest entity following
+![Alt text](/../screenshots/img/closest.png?raw=true "Optional Title")
+###Autonomous movement
+![Alt text](/../screenshots/img/autonomous.png?raw=true "Optional Title")
