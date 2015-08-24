@@ -16,7 +16,7 @@ Three flocking algorithms (behaviors) are implemented:
 3. Autonomous movement: Every entity knows the path to the goal. 
 
 ##Dependencies, compilation
-The only library needed to compile this is [libsdl1.2](https://www.libsdl.org/download-1.2.php)
+The only library needed to compile this is [libsdl1.2-dev](https://www.libsdl.org/download-1.2.php)
 For compilation just use the makefile.
 
 ##Instructions
